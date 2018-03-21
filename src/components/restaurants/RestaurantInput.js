@@ -24,6 +24,9 @@ class RestaurantInput extends Component {
       id: cuid()
     }
   });
+  this.setState({
+    text: ''
+  })
 }
  
   render() {
